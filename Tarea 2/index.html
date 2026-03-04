@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexander Olivera">
+    <title>Etiquetas semanticas y de formato de texto 2</title>
+</head>
+<body>
+    <!--Citas cortas-->
+    <p>Como dijo un sabio: "Yo solo se que no se nada"-Sabio</p>
+    <p>Como dijo un sabio: <q>Yo solo se que no se nada</q> - Sabio</p> <!-- <q> Tiene peso semantico-->
+
+    <!--Citas largas-->
+    <p>Como dijo un sabio:</p>
+    <blockquote>
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Nihil consequatur reprehenderit nisi sequi est veritatis pariatur, 
+        ab repudiandae eaque doloribus rem, cumque nemo totam aliquid architecto 
+        recusandae! Iste, harum error!"
+
+        -Sabio
+    </blockquote> <!--Tiene peso semantico-->
+
+    <p>Esta es la primera linea <br>Esta es la segunda linea <br>Esta es la tercera linea</p> <!--<br> es un salto de linea-->
+    <br>
+    <p>Este es otro parrafo</p>
+
+<!--Regla Horizontal <hr> hace un salto de elinea y ademas la pinta-->
+    <h2>Seccion 1</h2>
+        <p>HOLA esta es la seccion 1</p>
+<hr>
+    <h2>Seccion 2</h2>
+        <p>HOLA esta es la seccion 2</p>
+
+
+<!--Visualizar codigo en una sola linea-->
+    <p>Cuando nosotros implementamos <code>print("Hola mundo")</code> em python la consola imprimira: <code>Hola mundo</code></p>
+
+<!--Visualizar codigo en varias lineas-->
+<div style="background-color: rgb(184, 222, 135);">    
+    <h3>Suma de dos numeros en Python</h3>
+        <p>Este codigom imprime la siuma de 2 numeros en python</p>
+        <pre>  <!--Util para mostrar codigo-->
+            #suam de 2 numeros
+            a=3
+            b=3
+            print("El resultados es:" a+b)
+        </pre>
+</div> <!-- <div> en especifico no tiene peso semantico -->
+
+<hr>
+    <!--
+    Entidades HTML
+    Para escribir caracteres como: <>
+    se utilizan  las entidades html que permiten avisar 
+    al navegador que vamos a utilizar simbolos especiales, 
+    comienzan con "&" y cierran con ";"
+    -->
+    <h3 style="background-color: burlywood;">"Hola mundo" den HTML</h3>
+        <p style="background-color: burlywood;">Este codigom hace un hola mundo en HTML</p>
+        <pre>
+        <!-- &lt;  es para < , y &gt;  es para > -->
+            &lt;body&gt;
+              &lt;h1&gt;Hola mundo&lt;/h1&gt;
+            &lt;/body&gt;
+        </pre>
+
+<!-- Se peude reepresentar la entrada del teclado mediante la etiqueta <kdb> -->
+    <p>Para copiar un texti, seleccionelo con el mouse y haga <kdb>Crl+c</kdb></p> <!-- <kdb> tiene peso semantico-->
+    <p><kdb>Crl</kdb>+<kdb>c</kdb></p>
+</body>
+</html>
