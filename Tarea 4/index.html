@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexander Olivera">
+    <title>Imagenes, Media y Tablas</title>
+</head>
+<body>
+    <!--Imagenes externas-->
+    <p>Esta imagen esta en la web</p>
+    <img src="https://th.bing.com/th/id/OIP.lDr5ev5GnWD5s4bqGwtQuwHaHa?w=194&h=194&c=7&r=0&o=7&pid=1.7&rm=3" alt="aqui van los pie de pagina">
+
+    <!--Imagenes Internas-->
+    <p>Esta imagen esta en el servidor</p>
+<img src="img/images.png" alt="">
+<!--Insertar video-->
+<p>Este es un video</p>
+<video src="media/Video.mp4" controls loop></video>
+
+<!--Insertar Audio-->
+<p>Este es un audio</p>
+<audio src="audio/Clave ALI - Junior H (2020).mp3"controls loop></audio>
+
+<hr>
+<h1>Tablas en HTML</h1>
+
+<!--PAISES-->
+<table border="1px">
+    <caption>Paises</caption>
+    <tr>
+        <th>Pais</th>
+        <th>Capital</th>
+        <th>Idioma</th>
+        <th>Continente</th>
+    </tr>
+
+    <tr>
+        <td>España</td>
+        <td>Madrid</td>
+        <td>Español</td>
+        <td>Europa</td>
+    </tr>
+
+    <tr>
+        <td>Jpon</td>
+        <td>Tokyo</td>
+        <td>Japones</td>
+        <td>Asia</td>
+    </tr>
+
+    <tr>
+        <td>Italia</td>
+        <td>Roma</td>
+        <td>Italiano</td>
+        <td>Europa</td>
+    </tr>
+
+    <tr>
+        <td>Canada</td>
+        <td>Ottawa</td>
+        <td>Ingles y Frances</td>
+        <td>America</td>
+    </tr>
+
+    <tr>
+        <td>Egipto</td>
+        <td>El Cairo</td>
+        <td>Arabe</td>
+        <td>Africa</td>
+    </tr>
+
+    <tr>
+        <td>Australia</td>
+        <td>Canberra</td>
+        <td>Ingles</td>
+        <td>Oceania</td>
+    </tr>    
+    </table>
+
+<hr>
+<!--EVALUACION-->
+    <table border="1px">
+        <caption>Evaluacion Escuela</caption>
+        <tr>
+            <td rowspan="2"></td>
+            <th colspan="2">1° Evaluacion</th>
+            <th colspan="2">2° Evaluacion</th>
+            <th colspan="2">3° Evaluacion</th>
+        </tr>
+
+        <tr>
+            <td>Aprobados</td>
+            <td>Suspendidos</td>
+            <td>Aprobados</td>
+            <td>Suspendidos</td>
+            <td>Aprobados</td>
+            <td>Suspendidos</td>
+        </tr>
+        
+        <tr>
+            <td>Informatica</td>
+            <td>20</td>
+            <td>2</td>
+            <td>19</td>
+            <td>20</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>Matematicas</td>
+            <td>10</td>
+            <td>12</td>
+            <td>15</td>
+            <td>7</td>
+            <td>12</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+<hr>
+<!--HORARIO-->
+    <table border="1px">
+        <caption>Horario</caption>
+        
+        <tr>
+            <td>Horas</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoeles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr>
+
+        <tr>
+            <td>8:00-9:00</td>
+            <td rowspan="2">Matematicas</td>
+            <td>Lengua</td>
+            <td>Musica</td>
+            <td></td>
+            <td rowspan="2">Matematicas</td>
+        </tr>
+        
+        <tr>
+            <td>9:00-11:00</td>
+            <td>Ingles</td>
+            <td>Ingles</td>
+            <td>E.Fisica</td>
+        </tr>
+        
+        <tr>
+            <td>10:00-10:30</td>
+            <td colspan="5">Recreo</td>
+        </tr>
+        
+        <tr>
+            <td>10:30-11:30</td>
+            <td>E.Fisica</td>
+            <td>Valenciano</td>
+            <td rowspan="2">Lengua</td>
+            <td>Informatica</td>
+            <td>Ingles</td>
+        </tr>
+        
+        <tr>
+            <td>12:30-13:30</td>
+            <td>Musica</td>
+            <td>E.Fisica</td>
+            <td rowspan="2">Matematicas</td>
+            <td>Informatica</td>
+        </tr>
+        
+        <tr>
+            <td>13:30-14:30</td>
+            <td></td>
+            <td>Informatica</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+</table>
+</body>
+</html>
