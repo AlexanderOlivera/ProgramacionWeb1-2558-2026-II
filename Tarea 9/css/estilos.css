@@ -1,0 +1,56 @@
+#encabezado{
+background-color: rgb(0, 2, 94);
+color: white;
+text-align:center;
+}
+
+/*background image permite agregar una imagen de fondo
+a un contenedor html también permite agregar gradientes de fondo (Radicales y lineales)*/
+.fondo-leon{
+background-image: linear-gradient(to top, rgba(255, 0, 0,0.5), rgba(0, 0, 255, 0.5)), url(../img/leon.jpg);
+
+
+/*background-size (cover, contain y width-height)
+Especifica el tamaño de la imagen de fondo*/
+background-size: contain;
+
+
+/*background-repeat (tepeat, repeat-x, repeat-y, y no-repeat)
+Aplica cuando la imagen es mas pequeña que su contenedor*/
+background-repeat: no-repeat;
+
+
+/*background-position (top, bottom, center, right, left)
+Establece la posición inicial de una imagen en su contenedor*/
+background-position: center;
+
+
+/*background-attachment (scroll, fixed)
+se utiliza oara que la imagen se quedenfija en su contedor cuando un usuario se desplaza por la página*/
+background-attachment: scroll;
+
+
+width: 500px;
+height: 500px;
+background-color: black;
+color: white;
+border: 2px solid blue;
+}
+
+/*Propiedades abreviadas (shorthand)
+permite abrebiar una serie de propiedades en una sola regla de estilos*/
+
+.fondo-tigre{
+/*background:(image) (posision)/ (size) (repeat) (attachment) (color)*/
+
+background: linear-gradient(to top, rgba(255, 0, 234, 0.137)), url(../img/tigre.jpg) center/contain no-repeat scroll red;
+
+width: 300px;
+height:300px;
+background-color: black;
+color: white;
+border-style: solid;
+border-width: 2px;
+border-color: red;
+
+}

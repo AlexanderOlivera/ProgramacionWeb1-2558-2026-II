@@ -1,0 +1,17 @@
+/*selctor de elemntos (nombre del elemnto)*/
+h2{
+    color: crimson;
+}
+/*selector de clases (.)*/
+.bg-article{
+            background-color: cadetblue;
+        }
+
+.color-interno{
+    color: blue;
+}
+
+/*selector de identificadores (#)*/
+#bg-h1{
+    background-color: chocolate;
+}

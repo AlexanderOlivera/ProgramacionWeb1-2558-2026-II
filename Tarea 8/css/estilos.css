@@ -1,0 +1,89 @@
+/*Modelos de color*/
+
+/*RGB*/
+.rgb{
+    background-color: rgb(255, 0, 0);
+}
+
+/*Combinacion de selectores (clase padre y elemntoa hijos)*/
+
+.rgb h2{
+    color: rgb(0, 128, 255);
+}
+
+/*RGBA*/
+.rgba {
+    background-color:rgba(0,235,35,0.7);
+}
+
+.rgba h2{
+color: rgba(255, 0, 149, 0.5);
+}
+
+/*HEX*/
+
+.hex{
+    background-color: #33ff00;
+}
+
+.hex h2{
+    color: #a2aa33;
+}
+
+/*HSL*/
+
+.hsl{
+    background-color: hsl(192, 76%, 69%)
+}
+
+.hsl h2{
+color: hsl(130, 5%, 46%);
+}
+
+/*HSLA*/
+
+.hsla{
+    background-color: hsla(321, 76%, 69%, 50);
+}
+
+.hsla h2{
+color: hsla(250, 5%, 46%, 100);
+}
+
+/*Colores multinavegador*/
+.lista-ordenada{
+    background-color: bisque;
+}
+
+.negro{
+    color: black;
+}
+.blanco{
+    color: white;
+}
+.salmon{
+    color: salmon;
+}
+.azul{
+    color: blue;
+}
+.verde{
+    color: lime;
+}
+
+/*BORDES*/
+.borde {
+    color: black;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 5px;
+}
+
+/*DEGRADADOS*/
+.degradado-lieal{
+    background-image: linear-gradient(to /*top*/bottom, red,blue);
+}
+
+.degradado-radial{
+background-image: radial-gradient(/*ellipse*/ circle, rgb(0, 255, 106),rgb(255, 60, 0),rgb(204, 0, 255))
+}

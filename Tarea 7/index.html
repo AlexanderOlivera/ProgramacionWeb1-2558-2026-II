@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexander Olivera">
+    <title>Introduccion css</title>
+    <!-- 
+    <style>
+       .bg-article{
+            background-color: cadetblue;
+        }
+    </style>
+-->
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1 id="bg-h1">FORMAS DE AGREGAR ESTILOS A UNA PAGINA WEB (HTML)</h1>
+        <!--estilos en linea tiene mas peso q los estilos internos-->
+        <article class="bg-article">
+            <h2>Estilos en linea</h2>
+            <p>estos estilos se agregan directamente en el elemento HTML mediante el atributo
+                <code>style</code>
+            </p>
+            <p style="background-color: #ffac47;">
+                Este parrafo tiene un fondo agregado con estilos en linea
+            </p>
+        </article>
+
+        <article class="bg-article"><!--reutilizamos la clase-->
+            <h2 class="color-interno">Estilos Internos</h2>
+            <p>estoas estilos se agregan en el mismo estilo html dentro del elemento &lt;style&gt;,
+                este elemento debe estar dentro de la etiqueta &lt;head&gt;</p>
+        </article>
+
+        <article>
+            <h2>Estilos Externos</h2>
+            <p>son los recomendados ya que ofrecen modularidad, facil mantenimiento,
+                orden, eficienvcia, entre otras ventajas, para agragar una hoja de estilos externos
+                dentro de la etiqueta &lt;head&gt; se va a utilizar la etiqueta &lt;link&gt;
+            </p>
+        </article>
+
+    </section>
+</body>
+
+</html>
