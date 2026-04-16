@@ -1,0 +1,127 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Encabezado{
+color: white;
+background-color: black;
+
+/*Modifican el tamaño de un elemento en bloque HTML*/
+/*width: 500px;*/
+height: 100px;
+
+/*Es el espaciado entre el contenido del elemento y su borde
+Para definir sus propiedades se aplixa un sentido horario (top, right, bottom y left)
+padding: 10px 10px 10px 10px*/
+padding: 10px;
+
+/*Es el espacio entre el borde de un elemnto y los demas elemntos HTML
+Para definir sus propiedades se aplixa un sentido horario (top, right, bottom y left)
+padding: 10px 10px 10px 10px*/
+margin: auto;
+
+/*Es el limite de un elemnto HTML (CONTORNO VISUAL)
+valores para border-style (solid, dotted, dashed, double, groove, ridge, inset, 
+outset, hidden y none)*/
+border: 10px  gold;
+border-top-color: red;
+border-right-style: dashed;
+border-radius: 10px;
+
+/*Se puede utilizar para crear efectos de sombra alrededor del borde de un elemnto HTML
+Se debe espesificar en este orden: desplazamiento-horizontal desplazamiento-vertical radio-desenfocque radio-propagacion color*/
+box-shadow: -5px -5px 20px 10px rgb(134, 7, 253);
+
+/*se utiliza para que rellenos, margenes y bordes se ajusten a la medida inicial del elemento HTML y no agreguen espacio extra a la declaracion inicial*/
+box-sizing: content-box;
+}
+
+#encabezado h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1em;
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+.intruccion{
+    margin: 10px 5px;
+    padding: 5px;
+    background-color: black;
+    color: wheat;
+    border: 2xp solid goldenrod;
+
+/*color: aquamarine;
+background-color: brown;
+padding: 10px;
+margin-top: 30px ;
+border: 5px dashed rgb(0, 255, 115);
+border-left-color: rgb(255, 0, 157);
+border-right-style: dashed;
+border-radius: 5%;*/
+}
+
+.intruccion span{
+    width: 400px;
+    height: 200px;
+    border: 2px solid plum;
+    padding-top: 20px;
+    margin: 100px;
+}
+
+#contenido-principal{
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+}
+
+.texto-fuente{
+    font-size: 2em;
+    padding: 5px;
+}
+
+.propiedades-texto{
+    margin-bottom: 5px;
+    border: 2px solid blueviolet;
+    padding: 5px;
+    font-size: 3m;
+}
+
+.propiedades-texto h2{
+    border: 2xp dotted red;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px red;
+    font-size: 4.3 rem;
+    font-style: oblique
+}
+
+.propiedades-texto p{
+    text-align: justify;
+    line-height: 1;
+}
+
+.propiedades-fuentes{
+    margin-bottom: 5px;
+    border: 2px solid gold;
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.propiedades-fuentes h2{
+    border: 2px dotted red;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.propiedades-fuentes p{
+    text-align: justify;
+    text-transform: lowercase;
+    word-spacing: normal;
+}

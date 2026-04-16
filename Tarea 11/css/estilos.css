@@ -1,0 +1,112 @@
+html{
+    font-size: 100;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*orden de estilos para enlaces (LVFHA)*/
+
+a:link{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(255, 145, 0);
+}
+
+ a:focus{
+    color: white;
+    background-color: black;
+    border: 0.2rem solid red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cadetblue;
+    background-color: white;
+    border: 0.2rem solid black;
+    text-decoration: none;
+}
+
+a:active{
+    color: aqua;
+    text-decoration: none;
+}
+
+
+#encabezado{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#encabezado h1{
+    font-size: 2.5rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem goldenrod;
+}
+
+.navegacion{
+    border: 0.2rem solid red;
+}
+
+.estados-enlaces{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+}
+
+.estados-enlaces h2{
+    text-align: center;
+}
+
+.estados-enlaces ul{
+    border: 0.2rem dotted gold ;
+    padding: 0;
+}
+
+/*estilos listas*/
+.estados-enlaces ul li{
+    border: 0.05rem solid lime;
+
+    /*
+    CODIGO DE CLASE
+    * estilo de lista
+    * poisicion de lista
+    * insertacion de url de imagen
+
+    list-style-type (disc, decimal, circle, square, lower-roman, lowe-alpha, upper-alpha y none)
+    list-style-type: lower-greek;
+
+    list-style-position (inside, outside)
+    list-style-position: outside;
+
+    list-style-image: url("https://edube.org/uploads/media/default/0001/04/oedg_icon_regular.png"); */
+
+    /*AJSUTE DEL TAMAÑO DE LA IMAGEN*/
+    
+    list-style: none; /* Quitamos el punto por defecto */
+   
+    display: flex; /*Activamos Flexbox para alinear icono y texto */
+    align-items: center; /* Centra verticalmente el texto con la imagen */
+    gap: 10px;          /* Crea un espacio real entre la imagen y el texto */
+
+    background-image: url("../img/Copilot_20260413_155606.png");
+    background-repeat: no-repeat;
+    background-size: 55px 55px; /* Aquí defines el tamaño exacto */
+    background-position: left center;
+    /*padding-left: 1px;  Espacio para que el texto no pise la imagen */
+
+
+    padding-left: 3rem; /*Ajustamos el padding para que el texto no tape el fondo */
+    
+    margin: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border: 0.05rem solid lime;
+}
