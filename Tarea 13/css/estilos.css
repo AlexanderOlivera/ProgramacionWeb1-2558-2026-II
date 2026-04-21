@@ -1,0 +1,118 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom, rgb(209, 23, 70), rgb(0, 255, 13));
+    color: rgb(0, 0, 0);
+}
+
+#encabezado{
+    border: 0.2rem solid black;
+    padding: 1.5rem;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 25rem;
+}
+
+.logo{
+    border: 0.2rem solid gold;
+    width: 20%;
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(204, 29, 29);
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#encabezado h1{
+    font-size: 5rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(201, 17, 17);
+    position: relative;
+    right: -30%;
+    top: -50%;
+}
+
+#navegacion{
+    font-size: 2rem;
+    border: 0.2rem double gold;
+    width: 10rem;
+    position: relative;
+    left: 115rem;
+    bottom: 20rem;
+}
+
+#navegacion ul li{
+ list-style-type: none;
+ padding: 0;
+}
+
+#elementos-posicionados{
+    border: 0.2rem solid gold;
+    padding: 1rem;
+    position: relative;
+    margin-top: 30rem;
+    height: 150rem;
+}
+
+/*#elementos-posicionados section:nth-child(1){
+    width: 50rem;
+    border: 0.2rem solid gold;
+}*/
+
+.contenedor-img{
+    width: 20rem;
+    height: 20rem;
+    border: 0.2rem solid red;
+}
+
+.contenedor-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+/*    object-position: right;*/
+}
+
+.img1{
+    position: absolute;
+    right: 0rem;
+    bottom: 10rem;
+    filter: grayscale(30%);
+}
+
+.img2{
+    position: relative;
+    left: 40%;
+    top: 20rem;
+    filter: contrast(5);
+}
+
+.img3{
+    position: sticky;
+    top: 3rem;
+    filter: brightness(1);
+    z-index: 0;
+}
+
+.img4{
+    filter: blur(2rem);
+}
+
+/*filter
+blur(em, rem, px) aplica desenfoque
+brightness(0 - 1, 1, 1 - 5 ) aplica brillo
+contrast(0 - 1, 1, 1 - 5) apliac acontraste
+grayscale(%) aplica escalas de grises
+invert(1 sin, 0 invierte los colores)
+sepia(%) aplica el tono sepia
+*/
+
