@@ -1,0 +1,114 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(99, 138, 170));
+    color: rgb(219, 219, 219);
+}
+
+#encabezado{
+    border: 0.2rem solid gold; 
+    text-align: center;
+}
+
+#encabezado h1{
+     font-size: 3rem;
+}
+
+.contenedor-flotante{
+    border: 0.2rem solid greenyellow;
+
+}
+
+.contenedor-flotante p{
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.contenedor-flotante img{
+    width: 10%;
+    border: 0.2rem solid rgb(66, 197, 131);
+    float: inline-start;
+    margin: 1rem 0.5rem 1rem;
+}
+
+.contenedor-flotante2{
+    border: 0.2rem solid red;
+}
+
+.contenedor-flotante2 p{
+    font-size: 3rem;
+}
+
+.contenedor-flotante2 img{
+    width: 10%;
+    border: 0.2rem solid yellow;
+    float:right;
+    margin: 0.2rem;
+    margin: 1rem 0.5rem 1rem;
+}
+
+
+/*************************************************************************
+Consultas de medios o Medias Queries
+sirven para definir estilos a elementos html 
+segun el tamaño de la pantalla de nuestro dispositivo, 
+gracias a esto s eproporciona una herramienta que nos 
+sirve para la creacion de sitios web reponsbos o adaptables}
+
+
+nota: si se definen varias consultas de medios se deben poner en forma decendente segun la medida del dispositivo
+moviles ( < 480 px)
+tabler (480 - 960 px)
+portatiles/PC (960 - 1200 px)
+****************************************************************************/
+
+@media screen and (max-width: 700px){
+
+#encabezado h1{    
+    font-size: 2.5rem;
+    color: red;
+}
+
+.contenedor-flotante p{
+    font-size: 2.5rem;
+}
+
+.contenedor-flotante2 p{
+    font-size: 2.5rem;
+}
+
+}
+
+@media screen and (max-width: 400px){
+
+#encabezado h1{    
+    font-size: 1.5rem;
+    color: rgb(0, 102, 255);
+}
+
+.contenedor-flotante p{
+    font-size: 1rem;
+}
+
+.contenedor-flotante2 p{
+    font-size: 1rem;
+}
+
+}
+
+@media screen and (max-width: 390px){
+
+.contenedor-flotante2{
+    height: 10rem;
+}
+
+.contenedor-flotante2 img{
+    width: 35%;
+}
+
+}

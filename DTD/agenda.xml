@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+    
+    <contacto código="c1">
+        <nombre>Juan</nombre>
+        <apellidos>Abad</apellidos>
+        <móvil empresa="Movistar">611222333</móvil>
+        <móvil>644555666</móvil>
+        <email tipo="empresa">juan.abad@empresa.com</email>
+        <fijo>911223344</fijo>
+        <sexo>
+            <hombre/>
+        </sexo>
+        <pareja código="c2"/>
+        <comentario>Creador del tutorial</comentario>
+    </contacto>
+
+    <contacto código="c2">
+        <nombre>María</nombre>
+        <apellidos>García</apellidos>
+        <email tipo="personal">maria.garcia@gmail.com</email>
+        <fijo>922334455</fijo>
+        <fijo>933445566</fijo>
+        <sexo>
+            <mujer/>
+        </sexo>
+        <pareja código="c1"/>
+        <comentario>Compañera de trabajo</comentario>
+    </contacto>
+
+    <contacto código="c3">
+        <nombre>Pedro</nombre>
+        <apellidos>López</apellidos>
+        <comentario>Contacto sin mucha información</comentario>
+    </contacto>
+
+</agenda>

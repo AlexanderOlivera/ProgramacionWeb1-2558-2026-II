@@ -1,0 +1,147 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to bottom, rgba(48, 13, 204, 0.685), rgb(99, 138, 170));
+    color: rgb(219, 219, 219);
+}
+#encabezado{
+    font-size: 3rem;
+    border: 0.2rem solid rgb(0, 162, 255);
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navegacion{
+    border: 0.2rem solid green;
+    width: 20%;
+}
+
+#navegacion ul li{
+
+    width: 10%;
+    height: 2rem;
+    display: row;
+    align-items: center ;
+    
+
+}
+
+.logo{
+    border: 0.2rem solid gold;
+    width: 20%;
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(204, 29, 29);
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenedor-flexible{
+    border: 0.2rem solid red;
+    color: black;
+    padding: 0.5rem;
+    width: auto; /*se queda en auto para que ocupe todo el viewport*/
+    height: 70rem;
+    display: flex;
+    /*display: flex; hace un contenedor flexible*/
+
+    /*flex-direction: ; define el eje principal que va trabajar flexbox, por defecto este eje esta en horisontal
+    (row,, column, row-reverse, column-reverse)*/
+    flex-direction: row;
+    
+    /*justify-content: ; define como se otorga el espacio en el contenedor flexible a los objetos flexibles de 
+    dicho contenedor en el eje seleccionado como main-axis(x,y)*/
+    justify-content: space-evenly;
+
+    /*align-items: ; define como se distribuye el espacio de los objetos flexibles a lo largo del eje cruzado (cross-axis (x,y)) */
+    align-items: center;
+
+    /*flex-wrap: ; permite a los elementos si el contenedor es mas pequeño que el tamaño del elemnto espesificado aparecer en una linea debajo uno de otro*/
+    flex-wrap: wrap;
+}
+
+.contenedor-flexible article{
+    background-color: blue;
+    color: white;
+    width: 20rem;
+    height: 20rem;
+    margin: 0.5rem;
+}
+
+.objeto-flexible1{
+    flex-grow:1;
+}
+
+.objeto-flexible2{
+    flex-grow: 1;
+}
+
+.objeto-flexible3{
+
+    flex-grow: 1;
+    flex-shrink: 5;
+}
+
+.objeto-flexible2 p{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.objeto-flexible4{
+    flex-grow: 1;
+}
+
+.objeto-flexible5{
+    flex-grow: 1;
+}
+
+
+.titulo-main{
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 03.rem 0.3rem 0.5rem black;
+}
+
+#productos{
+    border: 0.2rem solid rgb(227, 16, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.producto{
+    font-size: 2rem;
+    padding: 1rem;
+    width: 30rem;
+    border: 0.2rem solid rgb(0, 255, 76);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto img{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.producto p{
+    text-align: justify;
+
+}
+

@@ -1,0 +1,70 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(108, 199, 4));
+    color: rgb(219, 219, 219);
+}
+
+#encabezado{
+    border: 0.2rem solid gold; 
+    text-align: center;
+        margin: 0px 0px 10px 0px ;
+}
+
+#encabezado h1 h2{
+     font-size: 3rem;
+}
+
+#borde{
+
+    border: 0.5rem solid rgb(236, 0, 0);
+}
+
+.img1{
+    border: 0.2rem solid gold ;
+    width: 50rem;
+    height: 15rem;
+    position: relative;
+    margin: 10px ;
+
+}
+
+.img1 p{
+  font-size: 2rem;
+}
+
+.img1 img{
+    width: 20rem;
+    height: 12rem;
+    border: 0.2rem solid yellow;
+    float:left;
+    margin: 0.2rem;
+    margin: 1rem 0.5rem 1rem;
+}
+
+
+.img2{
+    border: 0.2rem solid rgb(0, 68, 255) ;
+    width: 50rem;
+    height: 15rem;
+    position: relative;
+    margin: 10px ;
+}
+
+.img2 p{
+    font-size: 2rem;
+}
+
+.img2 img{
+    width: 20rem;
+    height: 12rem;
+    border: 0.2rem solid yellow;
+    float:left;
+    margin: 0.2rem;
+    margin: 1rem 0.5rem 1rem;
+}

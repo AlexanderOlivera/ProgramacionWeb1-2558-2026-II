@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--etiqueta raiz-->
+<coches>
+    <coche>
+    <nombre_coche color="rojo" velocidad="400m/h">mcqueen</nombre_coche>
+    <coche>
+</coches>
