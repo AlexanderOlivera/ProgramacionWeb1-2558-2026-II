@@ -1,4 +1,4 @@
-# 📚 Programación Web 1 - Código 2558 (Período 2026-II)
+# 📚 Programación Web 1 - Grupo 2558 (Período 2026-II)
 
 Este repositorio contiene trabajos y tareas realizadas en la materia **Programación Web 1**, abarcando desde fundamentos de HTML hasta tecnologías más avanzadas como XML, DTD y XSLT.
 
@@ -86,7 +86,7 @@ Este repositorio contiene trabajos y tareas realizadas en la materia **Programac
 
 ---
 
-### **Tarea 09 - Diseño Responsive**
+### **Tarea 09 - Diseño Responsivo**
 📂 **Contenido**: `index.html` (618 B) + `css/`, `img/`
 - **Objetivo**: Adaptabilidad a dispositivos móviles
 - **Temática**: Media queries, viewport
@@ -140,12 +140,12 @@ Este repositorio contiene trabajos y tareas realizadas en la materia **Programac
 
 ---
 
-### **Tarea 15 - Proyecto integrador**
+### **Tarea 15 - Flex Box**
 📂 **Contenido**: `index.html` (3.3 KB) + `css/`, `img/`
-- **Objetivo**: Integración de todos los conceptos
-- **Temática**: Proyecto final completo
+- **Objetivo**: Utilizar elemtos de Flex Box en lugra de posicion
+- **Temática**: Implementacion de FlexBox
 - **Archivos**: HTML + CSS + multimedia
-- **Características**: Aplicación práctica completa
+- **Características**: Aplicación de FlexBox
 
 ---
 
@@ -202,7 +202,7 @@ Este repositorio contiene trabajos y tareas realizadas en la materia **Programac
 - `index.html` (1.3 KB)
 - `css/` (carpeta de estilos)
 
-**Propósito**: Pregunta de examen o cuestionario adicional con componentes web
+**Propósito**: Pregunta de examen adicional con componentes web
 
 ---
 
