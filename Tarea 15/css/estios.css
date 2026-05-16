@@ -25,8 +25,8 @@ body{
 }
 
 #navegacion ul li{
-
-    width: 10%;
+    font-size: 2rem;
+    width: 50%;
     height: 2rem;
     display: row;
     align-items: center ;
@@ -108,8 +108,9 @@ body{
     flex-grow: 1;
 }
 
+/*--- TIENDDA --- */
 
-.titulo-main{
+/*.titulo-main{
     font-size: 3rem;
     text-align: center;
     text-shadow: 03.rem 0.3rem 0.5rem black;
@@ -144,4 +145,139 @@ body{
     text-align: justify;
 
 }
+*/
 
+.titulo-main {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 4rem 0;
+}
+
+#productos {
+    border: 0.2rem solid rgb(227, 16, 255);
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.producto {
+    font-size: 1.6rem;
+    padding: 2rem;
+    width: 32rem;
+    background-color: white; 
+    color: black;
+    border-radius: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.producto img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.producto p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.producto .precio {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.producto button {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(99, 138, 170);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* --- SECCIÓN DE COMENTARIOS --- */
+#comentarios {
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+#comentarios h2 {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0.3rem 0.3rem 0.5rem black;
+    margin-bottom: 3rem;
+}
+
+.comentario {
+    background-color: rgb(66, 66, 66);
+    color: black;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+}
+
+.comentario h4 {
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+.comentario p {
+    font-size: 1.6rem;
+}
+
+/* --- SECCIÓN COMENTARIOS  --- */
+.comentarios-seccion {
+    margin: 6rem 0;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-x: scroll;
+}
+
+.titulo-comentarios {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.comentarios-horizontal {
+    display: flex;
+    padding: 2rem;
+
+}
+
+.comentarios-horizontal .comentario-card {
+    margin-right: 2rem; 
+}
+
+.comentario-card {
+    width: 25rem;
+    min-width: 60rem; 
+    background: white;
+    color: #333;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.comentario-card h4 { 
+    font-size: 3rem; 
+    margin: 0; 
+}
+.estrellas { 
+    color: #bc0ff1; 
+    font-size: 1.6rem; 
+    margin: 0.5rem 0; 
+}
+.comentario-card p { 
+    font-size: 2rem; 
+    font-style: italic; 
+}

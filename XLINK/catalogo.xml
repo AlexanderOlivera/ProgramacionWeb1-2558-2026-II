@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<catalogo xmlns:xlink="http://www.w3.org/1999/xlink">
+    <libro xlink:type="simple"
+           xlink:href="https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha">
+        Don Quijote de la Mancha    
+    </libro>
+</catalogo>
