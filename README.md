@@ -6,9 +6,9 @@ Este repositorio contiene trabajos y tareas realizadas en la materia **Programac
 
 ## 📊 Composición del Repositorio
 
-- **HTML**: 69.4%
-- **CSS**: 28.9%
-- **XSLT**: 1.7%
+- **HTML**: 65.9%
+- **CSS**: 31.6%
+- **XSLT**: 2.5%
 
 ---
 
@@ -252,7 +252,7 @@ Nivel 5: TECNOLOGÍAS COMPLEMENTARIAS
 
 - **Total de Tareas**: 15 tareas principales
 - **Ejercicios Adicionales**: 5 secciones (Intro HTML, DTD, XML, XSL, Pregunta Extra)
-- **Lenguajes**: HTML (69.4%), CSS (28.9%), XSLT (1.7%)
+- **Lenguajes**: HTML (65.9%), CSS (31.6%), XSLT (2.5%)
 - **Carpetas de Recursos**: Múltiples carpetas `css/`, `img/`, `audio/`, `media/`
 
 ---
@@ -278,7 +278,7 @@ Nivel 5: TECNOLOGÍAS COMPLEMENTARIAS
 
 ## 📝 Notas del estudiante
 
-Este repositorio representa el progreso académico en el curso de Programación Web 1. Cada tarea se ha diseñado para introducir conceptos progresivamente, desde HTML básico hasta tecnologías de procesamiento de documentos como XML y XSLT.
+Este repositorio representa el progreso académico en el curso de Programación Web 1. Cada tarea se ha diseñado para introducir conceptos progresivamente, desde HTML básico hasta tecnologías complementarias como XML y XSLT.
 
 ---
 
@@ -296,4 +296,4 @@ Este repositorio representa el progreso académico en el curso de Programación 
 
 ---
 
-**Última actualización**: Mayo 8, 2026
+**Última actualización**: Mayo 18, 2026
