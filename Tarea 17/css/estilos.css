@@ -1,0 +1,124 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to top, red, rgb(155, 49, 0));
+    color: white;
+}
+
+a:link{
+    color:rgb(115, 255, 0);
+    text-decoration: none;
+}
+
+a:valid{
+    color: bisque;
+    text-decoration: none;
+}
+
+#encabezado{
+    border: 0.2rem solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 100%;
+    border-radius: 40%;
+    box-shadow: 0.2rem 0.2rem 0.5rem 0.2rem black;
+}
+
+#titulo-noticiero{
+    font-size: 2.5rem;
+}
+
+#navegacion{
+    border: 0.2rem solid black;
+    box-shadow: 0.2rem 0.2rem 0.5rem 0.2rem black;
+    border-radius: 40%;
+}
+
+#navegacion ul{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 0.8rem;
+    font-size: 1.5rem;
+}
+
+#navegacion ul li{
+    background-color: black;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 40%;
+}
+
+#noticias{
+    border: 0.2rem solid white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.titulo-principales{
+    border: 0.2rem solid white;
+    grid-column: 1/4;
+    width: 100%;
+    text-align: center;
+}
+
+.noticias-principales{
+    border: 0.2rem solid white;
+    grid-column: 1/4;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-height: 35rem;
+    overflow-y: scroll;
+}
+
+.noticia-principal{
+    border:0.2rem solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-urgentes{
+    border: 0.2rem solid white;
+    grid-column: 4/6;
+    grid-row: 1/2;
+    text-align: center;
+    width: 100%;
+}
+
+.noticias-urgentes{
+    border: 0.2rem solid white;
+    grid-column: 4/6;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-height: 35rem;
+    overflow-y: scroll;
+}
+
+.noticia-urgente{
+    border:0.2rem solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 20rem;
+}
