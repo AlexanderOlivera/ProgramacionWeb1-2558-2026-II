@@ -6,6 +6,7 @@
     <meta name="author" content="Alexander Olivera">
     <title>CSS Grid Ejercicio</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header id="encabezado">
@@ -15,12 +16,12 @@
         <section id="titulo-noticiero">
             <h1>Hot News</h1>
         </section>
-        <nav id="navegacion">
+        <nav id = "navegacion" >
             <ul>
-                <li><a href="#">enlace 1</a></li>
-                <li><a href="#">enlace 2</a></li>
-                <li><a href="#">enlace 3</a></li>
-                <li><a href="#">enlace 4</a></li>
+                <li class ="nav1"><a  href="#">enlace 1</a></li>
+                <li class ="nav1"><a  href="#">enlace 2</a></li>
+                <li><a class ="nav3" href="#">enlace 3</a></li>
+                <li><a class ="nav4" href="#">enlace 4</a></li>
             </ul>
         </nav>
     </header>
@@ -72,21 +73,35 @@
         </section>
     </main>
     <footer id="pie-pagina">
-        <section class="datos-contacto">
-            <h3>¡Contáctanos!</h3>
-            <ul>
-                <li><a href="mailto:ejemplo@hotmasil.com">Correo Electrónico</a></li>
-                <li><a href="https://wa.me/553268699">WhatsApp</a></li>
-                <li><a href="htpps://facebook.com">Facebook</a></li>
-            </ul>
-        </section>
+<section class="datos-contacto">
+    <h3>¡Contáctanos!</h3>
+    <ul>
+        <li>
+            <a href="mailto:ejemplo@hotmail.com">
+                <i class="fa-solid fa-envelope"></i> Correo Electrónico
+            </a>
+        </li>
+        <li>
+            <a href="https://wa.me/553268699">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+        </li>
+        <li>
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+        </li>
+    </ul>
+</section>
         <section class="derechos-autor">
             <p>CC BY NC ND</p>
             <P>Design by EPP</P>
         </section>
-        <section class="dirección">
-            <p>Ubicación: FES ARAGÓN: Av. Universidad S/N</p>
-        </section>
+<section class="dirección">
+    <i class="fa-solid fa-map-location-dot icono-ubicacion"></i>
+    <p>Ubicación: FES ARAGÓN: Av. Universidad S/N</p>
+    <p class="copyright">© 2024 Cadillac Hot News</p>
+</section>
     </footer>
 </body>
 </html>
